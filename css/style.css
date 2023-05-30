@@ -460,6 +460,10 @@ border-radius: 0px 0px 4px 4px;
   padding-left: 0px;
 }
 
+.social-list-link:hover,
+.social-list-link:focus {
+  background-color: #404bbf;
+}
 
 /**--------------------------- section 5 ---------------------- */
 
