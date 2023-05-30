@@ -266,6 +266,8 @@ border: 1px solid #E7E9FC;
   border-radius: 4px;
   margin-bottom: 8px;
   padding-left: 100px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .skills-ico {
