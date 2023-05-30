@@ -1,0 +1,503 @@
+:root {
+  --background-color: #ffffff;
+}
+
+body {
+  font-family: 'Roboto', normal;
+  padding: 1px;
+  /* width: 1440px; */
+  background-color: var(--background-color);
+margin: 0 auto;
+  /* box-sizing: border-box;
+ 
+  margin-left: auto;
+  margin-right: auto; */
+
+}
+
+
+
+/* Всем заголовкам и абзацам убираем отступы сверху сниху от браузера */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  /** чтоб убрать отступ от каждой картинки  */
+  
+  max-width: 100%;
+  /** макс ширина, чтоб не растягивались */
+}
+
+a {
+  text-decoration: none; 
+}
+
+
+/* Спискам убрать точки */
+.list {
+  list-style: none;
+  
+  color: #434455;
+  /* outline: 2px solid green; */
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+
+.link {
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+                                      /* Х-Е-Д-Е-Р */
+/**--------------------- HEADER------------------ */
+
+/**-------------------- CONTAINER ------------------------ */
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px
+  /* outline: 2px solid red; */
+  /* box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25); */
+}
+
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-navigation {
+  display: flex;
+  align-items: center;
+
+}
+
+
+
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  /* text-transform: uppercase; РЕГІСТР СИМВОЛІВ У ТЕКСТІ */
+  color: #4d5ae5;
+  margin-right: 76px;
+}
+
+.header-list {
+  display: flex;
+  gap: 40px;
+}
+
+
+.header-list :first-child {
+  padding-top: 24px; 
+  padding-bottom: 24px;
+}
+
+.header-address {
+  font-style: normal;
+  /* font-style: normal; НАКРЕСЛЕННЯ ТЕКСТУ, НОРМ, КУРСИВ */
+}
+
+.span-logo {
+  color: #2e2f42;
+}
+/** ----------------address------------------- */
+
+.header-address-link {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.header-address-link:hover,
+.header-address-link:focus {
+  color: #404bbf;
+}
+
+
+.menu-item {
+  text-decoration: none;
+  /* text-decoration: none; ПРИБРАТИ ПІДКРЕСЛЕННЯ */
+  font-weight: 500;
+  /* font-weight: 500; ТОВЩИНА ШРИФТУ */
+  line-height: 1.5;
+  /* line-height: 1.5; МІЖРЯДКОВИЙ ІНТЕРВАЛ */
+  letter-spacing: 0.02em;
+  /* letter-spacing: 0.02em; ІНТЕРВАЛ МІЖ СИМВОЛАМИ */
+  color: #434455;
+}
+
+.menu-item:focus,
+.link:hover {
+  color: #404bbf;
+}
+
+
+
+.portfolio-list .link {
+  background: #FFFFFF;
+border: 1px solid #E7E9FC;
+}
+
+
+/**---------------------- section 1 --------------------- */
+
+.hero {
+  padding: 188px 0;
+  background: #2E2F42;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-title {
+  font-size: 56px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.07;
+  margin-top: 0px;
+  margin-bottom: 48px;
+
+  max-width: 496px;
+  text-align: center;
+
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.button-service {
+  
+  /* для можливості центрувати кнопку через властивість margin */
+  display: block;
+  
+  /* визначення мінімальної ширини кнопки */
+  min-width: 169px;
+  height: 56px;
+  
+  /* вимкнення стандартного оформлення кнопки */
+  border: none;
+  
+  /* визначення заокруглень у кнопки */
+  border-radius: 4px;
+
+  /* визначення типу курсору на кнопці */
+  cursor: pointer;
+
+   /* white-space: nowrap; Запобігти переносу тексту */
+  white-space: nowrap;
+  padding: 8px 32px;
+  gap: 10px;
+
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  /* cursor: pointer; ТИП ВКАЗІВНИКА МИШІ НА ОБ'ЄКТІ, pointer вказівник, рука */
+}
+
+.button-service:hover,
+.button-service:focus {
+  background-color: #404bbf;
+}
+
+/** -------------------- section 2 ----------------- */
+
+.skills {
+  padding: 120px 0;
+}
+
+.section-2-list-div .list {
+  gap: 24px;
+}
+
+.characteristics {
+  width: calc((100% - 72px) / 4);
+}
+
+
+.second-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.visually-hidden {
+  position: absolute;
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.characteristics .second-title {
+  margin-bottom: 8px;
+}
+
+.paragraf {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-size: 16px;
+  color: #434455;
+}
+
+/**--------------------------- section 3 ---------------------- */
+
+.doing {
+  padding-bottom: 120px;
+}
+
+.title-main {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  /* text-align: center; ВИРІВНЮВАННЯ ТЕКСТУ ЗА ГОРИЗОНТАЛЛЮ */
+  text-transform: capitalize;
+  /* text-transform: capitalize; РЕГІСТР ТЕКСТУ, CAPITALIZE-перша літера кожного слова перетворюється на ВЕЛИКУ */
+  color: #2e2f42;
+  letter-spacing: 0.02em;
+  margin-bottom: 72px;
+}
+
+.section-3-list-div .list {
+  gap: 24px;
+}
+
+.work {
+  width: calc((100% - 48px) / 3);
+}
+
+.title-main list {
+  padding-left: 0px;
+}
+
+/** -------------------------- section 4 -----------------*/
+.sec-ourteam {
+  padding: 120px 0;
+  background-color: #f4f4fd;
+}
+
+
+
+
+.section-4-list-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: o auto;
+  padding-left: 0px;
+  padding-right: 0px;
+
+}
+
+
+.our-team {
+  gap: 24px;
+  /* background-color: tomato; */
+}
+
+.list-foto {
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+  background-color: #ffffff;
+
+}
+
+.pib  {
+  padding: 32px 16px;
+}
+
+.pib .second-title {
+  text-align: center;
+  margin-bottom: 8px
+}
+
+
+.list-foto .second-title {
+  text-align: center;
+}
+
+.pib .paragraf {
+  text-align: center;
+}
+
+
+/**--------------------- footer -------------------------- */
+
+.footer {
+  padding: 100px 0;
+  background: #2E2F42;
+  
+  
+}
+
+.footer-a-p {
+  padding-left: 40px;
+  /* display: flex;
+  flex-direction: column;
+  align-items: left; */
+
+  /* padding-top: 100px;
+  padding-bottom: 100px; */
+
+
+}
+
+
+.footer-logo {
+  display: inline-block;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  /* text-transform: uppercase; РЕГІСТР СИМВОЛІВ У ТЕКСТІ */
+  color: #4d5ae5;
+  margin-bottom: 16px;
+}
+
+.web {
+  color: #f4f4fd;
+}
+
+.footer-p {
+  color: #f4f4fd;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.032em;
+  /* letter-spacing: 0.032em; ІНТЕРВАЛ МІЖ СИМВОЛАМИ */
+}
+
+/** ------------------------------ main -------------*/
+.button-all {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  background-color: #f4f4fd;
+  cursor: pointer;
+
+  padding: 12px 24px;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+  
+}
+
+.button-all:hover,
+.button-all:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+  border: 1px solid transparent;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.title-link {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.portfolio-div-h2p .title-link {
+  margin-bottom: 8px;
+}
+
+.address {
+  display: block;
+}
+
+/** portfolio */ /* P-O-R-T-F-O-L-I-O */ /* portfolio */
+
+.portfolio {
+  padding: 96px 0 120px
+}
+
+
+/* СПИСОК, флекс в тезі .link */
+.portfolio-button-list {
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
+
+
+
+.portfolio-list {
+  flex-wrap: wrap;
+  /* flex-wrap: wrap; - в строке больше одного этажа */
+  column-gap: 24px;
+  row-gap: 48px;
+  width: 1128px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item-list {
+  width: calc((100% - 48px) / 3); 
+  /* flex-basis: calc((100% - 2 * 24px) / 3); */
+}
+
+.portfolio-div-h2p {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+
