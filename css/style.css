@@ -468,54 +468,34 @@ border-radius: 0px 0px 4px 4px;
 /**--------------------------- section 5 ---------------------- */
 
 .customers {
-  padding: 120px 0;
-}
-
-.title-main {
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  /* text-align: center; ВИРІВНЮВАННЯ ТЕКСТУ ЗА ГОРИЗОНТАЛЛЮ */
-  text-transform: capitalize;
-  /* text-transform: capitalize; РЕГІСТР ТЕКСТУ, CAPITALIZE-перша літера кожного слова перетворюється на ВЕЛИКУ */
-  color: #2e2f42;
-  letter-spacing: 0.02em;
-  margin-bottom: 72px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .customers-list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   gap: 24px;
-  padding-bottom: 32px;
 }
 
-.customers-div-ico {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 168px;
+.item-customers {
+  width: calc((100% - 120px) / 6);
   height: 88px;
-  border: 1px solid #8E8F99;
-border-radius: 4px;
-  margin-bottom: 8px;
-  }
-
-.skills-ico {
-  margin: 0 auto;
 }
 
-/* .section-5-list-div .list {
-  gap: 24px;
-} */
+.customers-a {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+  color: #8e8f99;
+  display: flex;
+}
 
-/* .customers-list {
-  width: calc((100% - 48px) / 3);
-} */
-
-.title-main list {
-  padding-left: 0px;
+.customers-a:hover,
+.customers-a:focus {
+  border-color: #404bbf;
+  color: #404bbf;
 }
 
 
