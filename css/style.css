@@ -275,10 +275,13 @@ border: 1px solid #E7E9FC;
 }
 
 .skills-strategy-ico {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 112px;
   background: #F4F4FD;
   border-radius: 4px;
   margin-bottom: 8px;
-  padding-left: 100px;
   padding-top: 24px;
   padding-bottom: 24px;
 }
