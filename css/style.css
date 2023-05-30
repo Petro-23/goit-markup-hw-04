@@ -85,7 +85,10 @@ a {
 }
 
 .header {
+  box-sizing: border-box;
+  background: #FFFFFF;
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-container {
@@ -184,6 +187,9 @@ border: 1px solid #E7E9FC;
   background-size: 1440px;
   background-repeat: no-repeat;
   background-position: 50% 50%;
+  background-size: cover;
+  max-width: 1440px; 
+  margin: 0 auto;
 }
 
 .hero-container {
@@ -251,6 +257,13 @@ border: 1px solid #E7E9FC;
 
 .skills {
   padding: 120px 0;
+}
+
+.section-2-list-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
 }
 
 .section-2-list-div .list {
@@ -346,6 +359,12 @@ border: 1px solid #E7E9FC;
 .sec-ourteam {
   padding: 120px 0;
   background-color: #f4f4fd;
+}
+
+.list-foto {
+  background: #FFFFFF;
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+border-radius: 0px 0px 4px 4px;
 }
 
 .section-4-list-div {
