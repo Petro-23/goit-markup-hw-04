@@ -643,6 +643,7 @@ border-radius: 0px 0px 4px 4px;
 }
 
 
+
 /* СПИСОК, флекс в тезі .link */
 .portfolio-button-list {
   justify-content: center;
@@ -650,7 +651,10 @@ border-radius: 0px 0px 4px 4px;
   margin-bottom: 72px;
 }
 
-
+.portfolio-div {
+  display: flex;
+  align-items: baseline;
+}
 
 .portfolio-list {
   flex-wrap: wrap;
