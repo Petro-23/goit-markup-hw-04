@@ -652,8 +652,8 @@ border-radius: 0px 0px 4px 4px;
 }
 
 .portfolio-div {
-  display: flex;
-  align-items: baseline;
+  /* display: flex;
+  align-items: baseline; */
 }
 
 .portfolio-list {
