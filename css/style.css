@@ -407,6 +407,7 @@ border-radius: 0px 0px 4px 4px;
 
 .pib .paragraf {
   text-align: center;
+  padding-bottom: 8px;
 }
 
 .social-link-ico {
@@ -507,6 +508,7 @@ border-radius: 0px 0px 4px 4px;
 
 .footer {
   display: flex;
+  justify-content: center;
   padding: 100px 0;
   background: #2E2F42;
   }
@@ -518,7 +520,10 @@ border-radius: 0px 0px 4px 4px;
 
 
 .footer-a-p {
-  margin-right: 120px
+  margin-right: 120px;
+  width: 270px;
+  padding-left: 0px;
+  padding-right: 0px;
   /* display: flex;
   flex-direction: column;
   align-items: left; */
