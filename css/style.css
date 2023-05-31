@@ -421,17 +421,6 @@ border-radius: 0px 0px 4px 4px;
   padding-bottom: 32px;
 }
 
-
-.social-list-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: #4D5AE5;
-  }
-
 .doing {
   padding-bottom: 120px;
 }
@@ -459,6 +448,16 @@ border-radius: 0px 0px 4px 4px;
 .title-main list {
   padding-left: 0px;
 }
+
+.social-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4D5AE5;
+  }
 
 .social-list-link:hover,
 .social-list-link:focus {
@@ -528,20 +527,6 @@ border-radius: 0px 0px 4px 4px;
   padding-bottom: 100px; */
 }
 
-.footer-social {
-  display: flex;
-  flex-direction: column;
-}
-
-.footer-social-p {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1,5;
-  letter-spacing: 0.02em;
-  color: #FFFFFF;
-  padding-bottom: 16px;
-}
-
 .footer-logo {
   display: inline-block;
   font-family: "Raleway", sans-serif;
@@ -566,6 +551,43 @@ border-radius: 0px 0px 4px 4px;
   line-height: 1.5;
   letter-spacing: 0.032em;
   /* letter-spacing: 0.032em; ІНТЕРВАЛ МІЖ СИМВОЛАМИ */
+}
+
+.footer-social {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-social-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  padding-bottom: 32px;
+}
+
+.footer-social-p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+}
+
+.footer-social-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4D5AE5;
+  }
+
+.footer-social-list-link:hover,
+.footer-social-list-link:focus {
+  background-color: #31d0aa;
 }
 
 /** ------------------------------ main -------------*/
