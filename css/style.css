@@ -770,7 +770,7 @@ border-radius: 0px 0px 4px 4px;
   .modal-close:focus {
     background-color: #404bbf;
     border: none;
-    fill: #ffffff;
+    /* fill: #ffffff; */
   }
 
   .modal-close-icon {
